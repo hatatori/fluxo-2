@@ -1,0 +1,8 @@
+Equações de segundo grau
+    Vertices
+        {x vertice} $$ x_v = \frac{-b}{2a} $$
+        {y vertice} $$ x_v = \frac{-\Delta}{4a} $$
+    Soma e produto
+        {soma} $$ x_1 + x_2 = -\dfrac{b}{a} $$
+        {produto} $$ x_1 \cdot x_2 =  \dfrac{c}{a} $$
+        <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg"><polygon points="50,100 150,100 125,150 75,150" fill="#4CAF50" stroke="#000" /><polygon points="50,100 100,50 150,100 125,150 75,150 50,100" fill="#81C784" stroke="#000" /><polygon points="150,100 100,50 125,0 175,50 150,100" fill="#388E3C" stroke="#000" /></svg>

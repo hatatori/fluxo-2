@@ -1,0 +1,17 @@
+RLM
+    Conectivos lógicos
+        {E}  ^ Conjunção
+        {OU}  v Disjunção inclusiva
+        {SE ENTÃO}  → Condicional
+        {SE SOMENTE SE}  ↔ Bicondicional
+        {OU OU}  ⊻ Disjunção exclusiva
+    Proposição simples
+        Proposições
+            {P} Maria come bolo
+            {Q} João não bebe água
+        Frases
+            {P ^ Q} Maria come bolo E João não bebe água
+            {P v Q} Maria come bolo OU João não bebe água
+            {P ⇒ Q} SE Maria come bolo ENTÃO João não bebe água
+            {P ↔ Q} Maria come bolo SE SOMENTE SE João não bebe água
+            {P ⊻ Q} OU Maria come bolo OU João não bebe água

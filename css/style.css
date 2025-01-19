@@ -1,0 +1,102 @@
+:root {
+    --c1: #3b5060;
+    --c2: #CCE3B2;
+    --c3: #BBBFEE;
+    --c4: #EEC1D3;
+    --c5: #F3BA92;
+    --c6: #F1DD9E;
+    --c7: #9CCEE9;
+
+    --text: #3b5060;
+    --bg: #DBE1E6;
+    --arrow: #828f99;
+}
+
+@font-face {
+    font-family: 'MoreSugar-Regular';
+    src: url('../fonts/MoreSugar-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MoreSugar-Thin';
+    src: url('../fonts/MoreSugar-Thin.otf') format('opentype');
+}
+
+* {
+    font-family: 'MoreSugar-Regular', sans-serif;
+    /* font-family: monospace; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    
+    /* disble selection */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+body {
+    background-color: var(--bg);
+    overflow: hidden;
+}
+
+
+.baloon {
+    position: relative;
+    min-width: 160px;
+    max-width: 300px;
+    /* height: 200px; */
+}
+
+.baloon .title {
+    /* border-radius: 30%; */
+    background-color: var(--c7);
+    color: #3b5060;
+    padding: 5px 10px;
+    border-radius: 30px;
+    width: min-content;
+    /* translate: 10px 10px; */
+    margin: auto;
+    position: absolute;
+    top: -12px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    translate: 0 -0px;
+    font-size: 0.8em;
+    white-space: nowrap;
+    width: min-content;
+}
+
+.baloon .window {
+    /* padding: 20px; */
+    /* box-shadow: 10px 10px 20px 0px #00000011; */
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    /* height: 100%; */
+    /* translate: 0 20px; */
+
+}
+
+
+.baloon .window p {
+    padding: 20px;
+    color: var(--text);
+    font-family: 'MoreSugar-Thin';
+    /* font-family: monospace; */
+    text-align: center;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,62 @@
+
+
+Segurança de informação
+    Malwares
+        Vírus
+            Cavalo de Tróia
+                Worm
+        Bot
+            Spyware
+                Adware
+        Backdoor
+            Ransomware
+                Rootkit
+        Hijacker
+Tipos
+    Phishing
+        Pescador
+        Engana a vítima
+        Não é vírus
+        É engenharia social
+    Malwares
+        {Tradução} Malicious Software
+        {Executa} atividades maliciosas
+    Vírus
+        replicando e infectando
+        ativado e espalhado
+        Se inicia ao ser executado
+        {Precisa} hospedeiro
+        {Propagação} internet, links, pen drives
+        {Mais comum} Cavalo de Tróia
+            Trojan Horse
+            {Disfarça} software legítimo
+    Worm
+        autorreplicar 
+        {Não precisa} hospedeiro
+        {Não precisa} ser ativado
+    Bot
+        {robô} controlá-los remotamente
+        {similar} similar ao worm
+        {Botnet} rede de computadores infectados
+    Spyware
+        {Tradução} Software Espião
+        {Objetivo} infiltrar sem o seu conhecimento
+        Tipos
+            {keylogger} Coleta tudo o que o usuário digita e envia pra algum lugar
+            {screenlogger} Tira prints (fotos) da tela do computador e envia pra algum lugar
+    Adware
+        Advertising Software
+        {mostrar anúncios} maneira indesejada 
+            incômodo
+    Backdoor
+        {tradução} Porta dos Fundos
+        {Objetivo} abertura das portas dos fundos do sistema computacional para futuras invasões
+    Ransomware
+        {sequestra} sequestrar os dados
+        {encripta} torna tudo inacessível
+        {resgate} mediante pagamento
+    Rootkit
+        {assegura } que outros códigos invasores não sejam descobertos
+            esconder os vestígios
+    Hijacker
+        {altera} a páginas do usuário
