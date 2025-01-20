@@ -2,21 +2,46 @@ Components eletronicos
     {Resistor}  Limita o fluxo de corrente elétrica.
         <img src='./images/resistor.jpg'>
     {Capacitor}  Armazena e libera energia elétrica.
+        <img src='./images/capacitor.jpg'>
+        {capacitor de ceramica} <img src='./images/capacitor2.jpg'>
+        {capacitor de ceramica} <img src='./images/capacitor3.jpg'>
     {Indutor}  Armazena energia magnética quando a corrente passa por ele.
+        {Indutor com núcleo de ferro} <img src='./images/indutor.jpg'>
+        {indutor toroidal} <img src='./images/indutor2.jpg'>
+        {indutor laminado} <img src='./images/indutor3.jpg'>
     {Diodo}  Permite que a corrente flua em uma única direção.
+        {diodo} <img src='./images/diodo.jpg'>
     {Transistor}  Amplifica sinais elétricos ou pode funcionar como um interruptor eletrônico.
+        {transistor} <img src='./images/transistor.jpg'>
+        {transistor} <img src='./images/transistor2.jpg'>
+        {transistor} <img src='./images/transistor3.jpg'>
     {Fotorresistor} (LDR)  Resistor cujo valor varia conforme a intensidade da luz.
+        {fotoresistor} <img src='./images/fotoresistor.jpg'>
     {LED} (Diodo Emissor de Luz)  Emite luz quando uma corrente elétrica passa por ele.
+        {led} <img src='./images/led.jpg'>
     {Fotodiodo}  Um tipo de diodo que gera corrente elétrica quando exposto à luz.
+        {fotodiodo} <img src='./images/fotodiodo.jpg'>
+        {fotodiodo} <img src='./images/fotodiodo2.jpg'>
     {Circuito  ntegrado (CI)}  Contém múltiplos componentes eletrônicos em um único chip.
+        {Circuito  ntegrado} <img src='./images/ci.jpg'>
     {Chave} (Switch)  Usada para abrir ou fechar um circuito, permitindo ou interrompendo o fluxo de corrente.
+        {switch} <img src='./images/switch.jpg'>
+        {switch} <img src='./images/switch2.jpg'>
+        {switch} <img src='./images/switch3.jpg'>
     {Relé}  Um interruptor controlado eletricamente, que pode ligar ou desligar circuitos de alta potência.
+        {Relé} <img src='./images/rele.jpg'>
     {Potenciômetro}  Um resistor variável usado para ajustar a tensão ou corrente em um circuito.
+        {Potenciômetro} <img src='./images/potenciometro.jpg'>
     {Oscilador}  Gera uma onda periódica, como uma onda quadrada ou senoidal.
+        {Oscilador} <img src='./images/oscilador.jpg'>
     {Microcontrolador}  Um pequeno computador em um único chip, com processador, memória e interfaces de entrada/saída.
-    {Sensor}  Converte uma variável física (como temperatura, pressão, luz) em um sinal elétrico.
+        {microcontrlador} <img src='./images/microcontrlador.jpg'>
     {Transformador}  Usado para aumentar ou diminuir a tensão em circuitos de corrente alternada (AC).
+        {transformador} <img src='./images/transformador.jpg'>
+        {transformador} <img src='./images/transformador2.jpg'>
     {Fonte de Alimentação} Converte energia elétrica de uma forma para outra, fornecendo a tensão necessária para os circuitos.
+        {fonte} <img src='./images/fonte.jpg'>
     {Bateria}  Armazena energia química e a converte em energia elétrica.
+        {bateria} <img src='./images/bateria.jpg'>
     {Supercapacitor}  Capacidade de armazenamento de energia muito maior que um capacitor convencional.
-    {Antena}  Converte sinais elétricos em ondas eletromagnéticas ou vice-versa.
+        {supercapacitor} <img src='./images/supercapacitor.jpg'>

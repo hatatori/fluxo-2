@@ -63,10 +63,14 @@ function organize() {
                     a_ul = a.querySelectorAll('span + ul')[0]
                     a_ul1 = a.querySelectorAll('span + ul')[1]
 
+                    // if (b_li.h < a_ul1.h) {
+                    //     a_ul1.append(b_li);
+                    // }
 
                     if (b_li.h == a_ul1.h) {
                         a_ul1.append(b_li)
-                        b.remove()
+                        if(b.children.length == 0) b.remove();
+                        // b.remove()
                     } else if (b.h > a.h) {
                         a_ul.append(b_li)
                         // console.log(b.children.length)
