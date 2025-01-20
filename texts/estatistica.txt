@@ -1,0 +1,11 @@
+Estatística
+            Variáveis Quantitativas
+                {Variáveis discretas} Conjunto finito/enumerável. 
+                    {Ex} nº filhos (0,1,2,…), nº bactérias/amostra, copos/dia.
+                {Variáveis contínuas} Intervalo real. 
+                    {Ex.: } altura, peso, tempo (relógio), pressão arterial.
+            Variáveis Qualitativas
+                {Variável nominal} Sem ordenação. 
+                    {Ex.: } sexo, cor dos olhos/cabelo, fumante/não.
+                {Variável ordinal} Com ordem. 
+                    {Ex.: } escolaridade (1,2,3), mês (jan, fev,…,dez).

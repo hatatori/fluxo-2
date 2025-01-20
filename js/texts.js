@@ -74,13 +74,33 @@ function renderText(content_text) {
 }
 
 
-const file = window.location.href.split('?q=')[1]
-fetch(`./texts/${file}.txt`)
-// fetch('./texts/rlm.txt')
-    .then(e => e.text())
-    .then(e => {
-        renderText(e)
-        if(e.includes('Cannot GET')){
-            window.location.href = './menu.html'
-        }
-    })
+
+if (window.location.href.includes("?q=")) {
+    const file = window.location.href.split('?q=')[1]
+    fetch(`./texts/${file}.txt`)
+        // fetch('./texts/rlm.txt')
+        .then(e => e.text())
+        .then(e => {
+            renderText(e)
+            if (e.includes('Cannot GET')) {
+                window.location.href = './index.html'
+            }
+        })
+}
+
+
+// if (window.location.href.includes("index.html")) {
+//     const file = window.location.href.split('?q=')[1]
+//     window.location.href = './menu.html'
+
+// fetch(`./texts/${file}.txt`)
+//     // fetch('./texts/rlm.txt')
+//     .then(e => e.text())
+//     .then(e => {
+//         renderText(e)
+//         if (e.includes('Cannot GET')) {
+//             window.location.href = './menu.html'
+//         }
+//     })
+// }
+
