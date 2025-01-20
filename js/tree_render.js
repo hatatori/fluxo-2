@@ -69,8 +69,9 @@ function organize() {
                         b.remove()
                     } else if (b.h > a.h) {
                         a_ul.append(b_li)
-
-                        // b.remove()
+                        // console.log(b.children.length)
+                        if(b.children.length == 0) b.remove();
+                        
                     }
 
                 } catch (err) { }
@@ -134,9 +135,9 @@ function organize() {
     organizeIn()
     organizeIn()
     organizeIn()
-    // organizeIn()
-    // organizeIn()
-    // organizeIn()
+    organizeIn()
+    organizeIn()
+    organizeIn()
 
     // try{
     //     for (let i = div_tree.children.length; i > 0; i--) {
