@@ -56,6 +56,8 @@ function replaceLine(a) {
     if (match_title) title = match_title[1]
     if (match_content) content = match_content[2] == undefined ? match_content[3] : match_content[2]
 
+    console.log("title:" + title)
+    console.log("content:" + content)
 
     const quant = a.split('    ').filter(e => e == '').length
     const t = '    '.repeat(quant) + card(title, content)
@@ -70,6 +72,7 @@ function renderText(content_text) {
         text3.push(replaceLine(e))
     })
     text3 = text3.join("\n")
+    console.log(text3)
     startTree(text3)
 }
 
@@ -81,6 +84,7 @@ if (window.location.href.includes("?q=")) {
         // fetch('./texts/rlm.txt')
         .then(e => e.text())
         .then(e => {
+            
             renderText(e)
             if (e.includes('Cannot GET')) {
                 window.location.href = './index.html'

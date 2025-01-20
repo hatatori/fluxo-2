@@ -1,0 +1,22 @@
+Components eletronicos
+    {Resistor}  Limita o fluxo de corrente elétrica.
+        <img src='./images/resistor.jpg'>
+    {Capacitor}  Armazena e libera energia elétrica.
+    {Indutor}  Armazena energia magnética quando a corrente passa por ele.
+    {Diodo}  Permite que a corrente flua em uma única direção.
+    {Transistor}  Amplifica sinais elétricos ou pode funcionar como um interruptor eletrônico.
+    {Fotorresistor} (LDR)  Resistor cujo valor varia conforme a intensidade da luz.
+    {LED} (Diodo Emissor de Luz)  Emite luz quando uma corrente elétrica passa por ele.
+    {Fotodiodo}  Um tipo de diodo que gera corrente elétrica quando exposto à luz.
+    {Circuito  ntegrado (CI)}  Contém múltiplos componentes eletrônicos em um único chip.
+    {Chave} (Switch)  Usada para abrir ou fechar um circuito, permitindo ou interrompendo o fluxo de corrente.
+    {Relé}  Um interruptor controlado eletricamente, que pode ligar ou desligar circuitos de alta potência.
+    {Potenciômetro}  Um resistor variável usado para ajustar a tensão ou corrente em um circuito.
+    {Oscilador}  Gera uma onda periódica, como uma onda quadrada ou senoidal.
+    {Microcontrolador}  Um pequeno computador em um único chip, com processador, memória e interfaces de entrada/saída.
+    {Sensor}  Converte uma variável física (como temperatura, pressão, luz) em um sinal elétrico.
+    {Transformador}  Usado para aumentar ou diminuir a tensão em circuitos de corrente alternada (AC).
+    {Fonte de Alimentação} Converte energia elétrica de uma forma para outra, fornecendo a tensão necessária para os circuitos.
+    {Bateria}  Armazena energia química e a converte em energia elétrica.
+    {Supercapacitor}  Capacidade de armazenamento de energia muito maior que um capacitor convencional.
+    {Antena}  Converte sinais elétricos em ondas eletromagnéticas ou vice-versa.

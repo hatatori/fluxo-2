@@ -9,3 +9,4 @@ Estatística
                     {Ex.: } sexo, cor dos olhos/cabelo, fumante/não.
                 {Variável ordinal} Com ordem. 
                     {Ex.: } escolaridade (1,2,3), mês (jan, fev,…,dez).
+                    <iframe width="250" height="315" src="https://www.youtube.com/embed/qZF5VSvKYkQ?si=Ro4OxCkzktBgNx5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

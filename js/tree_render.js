@@ -70,7 +70,7 @@ function organize() {
                     } else if (b.h > a.h) {
                         a_ul.append(b_li)
 
-                        b.remove()
+                        // b.remove()
                     }
 
                 } catch (err) { }
@@ -131,9 +131,9 @@ function organize() {
 
     }
 
-    // organizeIn()
     organizeIn()
-    // organizeIn()
+    organizeIn()
+    organizeIn()
     // organizeIn()
     // organizeIn()
     // organizeIn()
